@@ -10,10 +10,9 @@ int main()
 {
 
     char Choice;
-    int SK=3; //SK=ShiftKey
+    int SK=3; 
 
-
-    printf("-----------------AA1846-----------------");
+    printf("---------Tharindu Ramanayake-----------");
     printf("\n----------*** Caesar Ciper ***----------\n");
     printf("--Also Can Encrypt & Decrypt Sentences--\n\n");
 
@@ -28,15 +27,13 @@ int main()
 
      if (Choice == 'E'|| Choice=='e')
             {
-                //printf("\nEnter Your Shift Key:");
-                //scanf("%d",&SK);
+                
                 EncryptingFunction(SK);
             }
             else if(Choice=='D' || Choice == 'd')
             {
-                //printf("\nEnter Your Shift Key:");
-                //scanf("%d",&SK);
-                DecryptionFunction(SK);
+               
+                  DecryptionFunction(SK);
             }
             else if(Choice=='0' || Choice=='0')
             {
@@ -92,7 +89,7 @@ void EncryptingFunction(int SK)
 }
 
 
-
+//TharinduRamanayake
 
 void DecryptionFunction(int SK)
 {
